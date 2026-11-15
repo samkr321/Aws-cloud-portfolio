@@ -18,8 +18,8 @@ Currently transitioning into AWS Cloud Operations and Cloud Support, developing 
 | Project | Description |
 |---|---|
 | [S3 Secure Storage with IAM](./02-S3-IAM-Secure-Storage/) | EC2-to-S3 file operations using IAM roles and AWS CLI |
-| EC2 Web Server | EC2 deployment and server configuration |
-| CloudWatch Monitoring | Infrastructure monitoring and alerts |
+| EC2 Web Server | Planned EC2 deployment and server configuration |
+| CloudWatch Monitoring | Planned Infrastructure monitoring and alerts |
 
 ### 🎯 Career Objective
 
