@@ -51,3 +51,24 @@ Implemented least-privilege access using:
 
 ## Outcome
 Successfully implemented and tested secure EC2-to-S3 file operations using IAM role-based access.
+
+## AWS Architecture Diagram
+
+
+flowchart TB
+    A["Administrator"] -->|"SSM Session Manager"| B["Amazon EC2 Linux Instance"]
+
+    subgraph AWS["AWS Account"]
+        B --> C["IAM Instance Role"]
+        C --> D["IAM Permissions Policy"]
+        B -->|"AWS CLI: S3 API requests"| E[("Private Amazon S3 Bucket")]
+        D -.->|"Authorizes access"| E
+
+        E --> F["File Upload"]
+        E --> G["File Download"]
+        E --> H["File Verification"]
+    end
+
+    E --- I["Server-side Encryption: AES-256"]
+
+
