@@ -32,6 +32,6 @@ Seeking opportunities in:
 ### 📫 Connect With Me
 
 - LinkedIn: [Sameer Kumar](https://www.linkedin.com/in/sameer-kumar-67641b380)
-- GitHub: [Toto07](https://github.com/Toto07)
+- GitHub: [Toto07](https://github.com/samkr321)
 
 *Learning, building and documenting my journey into cloud computing.*
