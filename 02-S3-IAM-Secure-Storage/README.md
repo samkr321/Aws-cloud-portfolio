@@ -41,8 +41,13 @@ Implemented least-privilege access using:
 - Linux file permissions
 - AWS troubleshooting
 
+##Troubleshooting & Challenges
+  1. IAM s3:PutObject AccessDenied.
+  2. Linux /home directory permission denied during download.
+
+
 ## Screenshots
-[Project implementation screenshots will be added here.](https://github.com/Toto07/Aws-cloud-portfolio/tree/main/02-S3-IAM-Secure-Storage/screenshots)
+[Project implementation screenshots will be added here.](https://github.com/samkr321/Aws-cloud-portfolio/tree/main/02-S3-IAM-Secure-Storage/screenshots)
 
 ## Outcome
 Successfully implemented and tested secure EC2-to-S3 file operations using IAM role-based access.
