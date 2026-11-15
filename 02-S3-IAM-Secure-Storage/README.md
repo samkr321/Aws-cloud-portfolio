@@ -42,7 +42,7 @@ Implemented least-privilege access using:
 - AWS troubleshooting
 
 ## Screenshots
-Project implementation screenshots will be added here.
+[Project implementation screenshots will be added here.](https://github.com/Toto07/Aws-cloud-portfolio/tree/main/02-S3-IAM-Secure-Storage/screenshots)
 
 ## Outcome
 Successfully implemented and tested secure EC2-to-S3 file operations using IAM role-based access.
