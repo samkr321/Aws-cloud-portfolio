@@ -93,7 +93,7 @@ sudo systemctl status httpd
 Created a custom HTML webpage:
 
 ```bash
-sudo tee /var/www/html/index.html
+sudo tee /var/www/html/index.html > /dev/null <<'EOF'
 ```
 
 The webpage displays the project name, operating system, web server and AWS region.
@@ -110,6 +110,7 @@ Expected HTTP response:
 ```text
 HTTP/1.1 200 OK
 Server: Apache/2.4.68 (Amazon Linux)
+Content-Type: text/html; charset=UTF-8
 ```
 
 ### 8. Verify Public Website Access
