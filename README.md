@@ -13,13 +13,15 @@ Currently transitioning into AWS Cloud Operations and Cloud Support, developing 
 - **Tools:** AWS CLI, Systems Manager, Git, GitHub
 - **IT Operations:** Networking, troubleshooting, hardware and software support
 
-### 🚀 AWS Cloud Portfolio Projects
+# 🚀 AWS Cloud Portfolio Projects
+
+Hands-on AWS projects demonstrating cloud infrastructure, security, monitoring, and troubleshooting skills.
 
 | Project | Description |
 |---|---|
-| [EC2 Web Server Deployment](./01-EC2-Web-Server/) | EC2 deployment, Apache installation, server configuration and public web hosting |
-| [S3 Secure Storage with IAM](./02-S3-IAM-Secure-Storage/) | EC2-to-S3 file operations using IAM roles and AWS CLI |
-| [CloudWatch Monitoring & SNS Email Alerts](./03-CloudWatch-Monitoring/) | EC2 CPU monitoring, CloudWatch alarms and automated SNS email notifications |
+| [01 - EC2 Web Server](./01-EC2-Web-Server/) | EC2 deployment, Apache installation, web server configuration, and troubleshooting |
+| [02 - S3 Secure Storage with IAM](./02-S3-IAM-Secure-Storage/) | Secure S3 storage, IAM roles, policies, and EC2-to-S3 file operations |
+| [03 - CloudWatch Monitoring](./03-CloudWatch-Monitoring/) | EC2 CPU monitoring, CloudWatch alarms, SNS email notifications, and alert testing |
 
 ### 🎯 Career Objective
 
