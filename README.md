@@ -17,9 +17,9 @@ Currently transitioning into AWS Cloud Operations and Cloud Support, developing 
 
 | Project | Description |
 |---|---|
+| [EC2 Web Server Deployment](./01-EC2-Web-Server/) | EC2 deployment, Apache installation, server configuration and public web hosting |
 | [S3 Secure Storage with IAM](./02-S3-IAM-Secure-Storage/) | EC2-to-S3 file operations using IAM roles and AWS CLI |
-| EC2 Web Server | Planned EC2 deployment and server configuration |
-| CloudWatch Monitoring | Planned Infrastructure monitoring and alerts |
+| [CloudWatch Monitoring & SNS Email Alerts](./03-CloudWatch-Monitoring/) | EC2 CPU monitoring, CloudWatch alarms and automated SNS email notifications |
 
 ### 🎯 Career Objective
 
